@@ -1,0 +1,1012 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000 !important;
+}
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/* Header Css Start */
+
+#head > .container {
+  width: 100%;
+  max-width: 100%;
+  background: transparent;
+  padding: 0;
+}
+.header-col {
+  max-width: 185px;
+}
+
+.logo-img img {
+  width: 100%;
+}
+.logo-img {
+  text-align: center;
+  max-width: 180px;
+}
+#head .row {
+  justify-content: space-around;
+  align-items: center;
+}
+/* .slider-col .react-multi-carousel-list{
+    position:relative !important;
+  }  */
+.slider-col .react-multi-carousel-list {
+  position: static !important;
+}
+
+.slide-scorebord img {
+  max-height: 30px;
+  min-height: 30px;
+  width: 30px;
+  object-fit: contain;
+}
+.slide-scorebord {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+.team-name {
+  line-height: 1;
+  font-weight: 600;
+  margin-left: 5px;
+  font-size: 13px;
+  font-style: italic;
+  color: #fff;
+}
+.team-score {
+  width: 25%;
+  text-align: right;
+  font-size: 13px;
+  margin-left: 5px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.slider-one {
+  background: #000;
+  vertical-align: bottom;
+  margin: 0;
+  padding: 7px 12px;
+}
+.slide-date {
+  color: #8b7200;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: start;
+}
+
+.react-multiple-carousel__arrow {
+  background: transparent !important;
+}
+#head .row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.slide {
+  padding: 15px 5px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+.slider-col .react-multiple-carousel__arrow:before {
+  font-size: 35px !important;
+}
+#head .slider-col button.react-multiple-carousel__arrow--left {
+  margin-left: -35px;
+  left: unset !important;
+}
+.slider-col button.react-multiple-carousel__arrow--right {
+  right: 0px;
+}
+.gallery-slider .react-multiple-carousel__arrow--right {
+  right: -30px;
+}
+.gallery-slider .react-multi-carousel-track li {
+  padding: 0 12px 0px 12px;
+}
+.gallery-slider {
+  position: relative;
+}
+/* Footer Css Start */
+
+#footer {
+  background: #272829;
+  /* padding: 0px 0px 0px; */
+}
+.foot-right {
+  align-items: center;
+}
+.footer-text {
+  color: #fff;
+  font-size: 16px;
+}
+.footer-text {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  text-align: start;
+}
+.foot-left {
+  display: flex;
+  justify-content: end;
+}
+.foot-head {
+  text-align: start;
+}
+.foot-head span {
+  color: #f0c50c;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.foot-social {
+  text-align: end;
+}
+.foot-right {
+  font-size: 22px;
+}
+.foot-social i {
+  font-size: 20px;
+  color: #f0c50c;
+  border: 2px solid #f0c50c;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 12px;
+}
+.foot-social i:hover {
+  border: 2px solid #f0c50c;
+  color: #fff;
+  transition: 500ms all ease;
+  cursor: pointer;
+}
+.copyright span {
+  color: #fff;
+  font-size: 16px;
+}
+.copyright {
+  background: #000;
+}
+
+/* Navbar Css Start */
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  text-transform: uppercase;
+  border-top: 1px rgb(39, 39, 39);
+  border-bottom: 1px rgb(39, 39, 39);
+  font-family: "Poppins", sans-serif;
+}
+.navbar-collapse {
+  justify-content: center;
+}
+.navbar-expand {
+  padding: 0px !important;
+}
+.navbar a:hover {
+  color: #000 !important;
+  transition: 500ms ease all;
+}
+.navbar a.active {
+  color: #000;
+}
+.navbar {
+  padding: 0px;
+}
+#Menu {
+  background: #f0c50c;
+}
+.resp-logo {
+  display: none;
+}
+.resp-logo img {
+  height: 90px;
+}
+
+/* Slider Style Css */
+
+.card-div {
+  background: #fff;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.desc-div {
+  padding: 15px;
+}
+.react-multi-carousel-track li {
+  padding: 0 22px 0px 3px;
+}
+.twoh-div h6 {
+  text-align: left !important;
+  display: block;
+  font-size: 22px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+/* Loading Csss */
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #383636;
+  border-radius: 50%;
+  animation: 1.5s linear infinite;
+}
+
+.spinner-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+/* ***************** */
+.wow {
+  border-top: #fff 2px solid;
+  border-bottom: 2px solid #fff;
+  border-left: 10px solid #f0c50c;
+  border-right: 10px solid #f0c50c;
+  padding: 5px 5px;
+  border-radius: 10px;
+  margin-right: 3rem;
+}
+.wow h2 {
+  color: #f0c50c;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: start;
+}
+.main-title {
+  font-size: 1.9rem;
+}
+div.horizontal-line {
+  border-style: solid;
+  border-width: thin;
+}
+.player-head {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.slider-section .react-multiple-carousel__arrow--left::before {
+  content: "\e824";
+  color: #fff !important;
+}
+.react-multiple-carousel__arrow--right::before {
+  content: "\e825";
+  color: #fff !important;
+}
+.react-multiple-carousel__arrow::before {
+  font-size: 40px !important;
+  color: #fff;
+  display: block;
+  font-family: revicons;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+.foot-right {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+div#post-13 {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0px;
+  box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 69%);
+}
+.player-head h1 {
+  color: #f0c50c;
+  font-weight: 800;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: start;
+}
+.para-one {
+  text-align: start;
+  line-height: 30px;
+}
+
+.player-head .section-2 {
+  text-align: center;
+  color: #f0c50c !important;
+  border-top: 2px solid #fff;
+  border-left: 8px solid #f0c50c;
+  border-right: 8px solid #f0c50c;
+  border-radius: 5px;
+  border-bottom: 2px solid #fff;
+  padding: 7px 0px;
+}
+.player-head .react-multiple-carousel__arrow--left {
+  left: calc(4% + 6px) !important;
+}
+.player-head .react-multiple-carousel__arrow--right {
+  right: calc(4% + 6px) !important;
+}
+.desc-div h3 {
+  background: #f0c50c;
+  color: #000 !important;
+  border: 2px solid #f0c50c;
+  min-height: 70px;
+  border-radius: 0px 0px 5px 5px;
+  text-align: center;
+  font-size: 18px !important;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.slider-section .section-2 {
+  font-weight: 800;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.slid-two .react-multi-carousel-list {
+  position: unset !important;
+}
+.slid-two button.react-multiple-carousel__arrow--left {
+  margin-left: 0px;
+  left: -30px !important;
+}
+.slid-two button.react-multiple-carousel__arrow--right {
+  margin-right: 0px;
+}
+.react-multiple-carousel__arrow::before:hover {
+  color: #f0c50c;
+  transition: 500ms all ease;
+}
+
+/* Game Content Css Start */
+.gc-sctwo {
+  display: none;
+}
+.cont-div h1 {
+  color: #f0c50c;
+}
+.cont-div {
+  text-align: start;
+}
+.cont-div ul li::marker {
+  font-size: 19px;
+  color: #f0c50c;
+}
+.cont-div h4 {
+  color: #fff;
+  font-weight: 400;
+}
+
+.game-bg {
+  background-image: url("../images/gamecontent.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 400px;
+  box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 69%);
+}
+.bg-content h1 {
+  color: #fff;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 7rem !important;
+  letter-spacing: 15px;
+  text-shadow: 0px 0px 10px rgb(240 197 12);
+}
+.bg-content h1,
+.bg-content h3 {
+  display: none;
+}
+.bg-content h3 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  letter-spacing: 7px;
+  font-size: 2.5rem !important;
+  text-shadow: 0px 0px 10px rgb(240 197 12);
+  font-weight: 700;
+}
+.team-logo img {
+  max-width: 70px;
+}
+.tmscore-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.gcteam-score h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0px 0px 10px rgb(240 197 12);
+}
+.gcteam-score p {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.row-center h5 {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+.score-divider {
+  border-bottom: 2px solid #f0c50c;
+}
+.lead-head {
+  text-align: start;
+}
+.lead-head span {
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-shadow: 0px 0px 10px rgb(240 197 12);
+}
+.lead-head h6 {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 500;
+  text-shadow: 0px 0px 10px rgb(240 197 12);
+}
+.lead-divider {
+  border-bottom: 2px solid yellow;
+  max-width: 140px;
+}
+.point-table .team-ranking .row:nth-child(odd) {
+  background: #353538;
+  border-radius: 10px;
+}
+.leadboard-score {
+  background: #161613;
+  border-radius: 10px;
+}
+.rank-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.rank-flex img {
+  max-width: 30px;
+}
+.rank-flex h4 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.lead-wins,
+.leads-loss,
+.leads-points h5,
+span {
+  color: #fff;
+}
+.rank-row {
+  display: flex;
+  box-shadow: 0px 0px 10px rgb(240 197 12);
+  border-radius: 10px;
+}
+.rank-row .col-md-6 {
+  border-right: 1px solid #f0c50c;
+}
+.gc-table {
+  background: #fff;
+}
+.gc-thead {
+  background: #f0c50c;
+  color: #000;
+}
+.gc-thead th {
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+/* Roster Page CSS */
+
+.sec-roster {
+  background-image: url("../images/Roster.png");
+  background-size: contain;
+  box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 69%);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+.txt-roster h1 {
+  color: #fff;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 6rem !important;
+  letter-spacing: 10px;
+  text-shadow: 0px 0px 10px rgb(240 197 12);
+}
+.txt-roster h1 {
+  display: none;
+}
+.player-tab table {
+  width: 100%;
+  border: 2px solid #f0c50c;
+  border-radius: 10px;
+}
+.player-tab tr {
+  background: #fff;
+}
+.player-tab tr th {
+  font-size: 25px;
+}
+tbody td img {
+  max-width: 100px;
+}
+tbody td h3 {
+  color: #000;
+}
+tbody td {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.roster-tab-sec {
+  display: none;
+}
+.rost-body td {
+  text-align: start;
+}
+
+/* Coaches Page Css */
+
+.sec-coaches {
+  background-image: url("../images/coaches.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 69%);
+  min-height: 500px;
+  background-position: bottom center;
+}
+.txt-coaches h1 {
+  color: #fff;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 6rem !important;
+  letter-spacing: 10px;
+  text-shadow: 0px 0px 10px rgb(240 197 12);
+}
+
+/* GameDay Page Css */
+
+.sec-gdinfo {
+  display: none;
+}
+.sec-gameday {
+  background-image: url("../images/gameday.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 69%);
+  min-height: 500px;
+  background-position: bottom center;
+}
+
+.txt-gameday h1 {
+  color: #fff;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 5rem !important;
+  letter-spacing: 10px;
+  text-shadow: 0px 0px 10px rgb(240 197 12);
+}
+.txt-gameday h1 {
+  display: none;
+}
+
+.teamimg img {
+  max-width: 200px;
+  width: 100%;
+}
+.next-match {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.team-title h2,
+h3 {
+  color: #fff;
+}
+.team-title h3,
+.cent-head h3 {
+  color: #f0c50c;
+}
+.cent-head h2,
+h5,
+h3 {
+  color: #fff;
+}
+.cent-head h2 {
+  letter-spacing: 5px;
+}
+.ticket-price h1 {
+  color: #fff;
+  font-size: 3.5rem;
+}
+.ticket-head h1 {
+  text-align: center;
+  color: #f0c50c !important;
+  border-top: 2px solid #fff;
+  border-left: 8px solid #f0c50c;
+  border-right: 8px solid #f0c50c;
+  border-radius: 5px;
+  border-bottom: 2px solid #fff;
+  padding: 7px 0px;
+}
+.opt-list ul {
+  padding-left: 0rem !important;
+}
+.opt-list ul li {
+  list-style: none;
+  color: #fff;
+}
+.inside-row .row {
+  align-items: center;
+}
+.inside-row {
+  border: 2px solid #f0c50c;
+  border-radius: 10px;
+}
+.ticket-opt {
+  border-left: 1px solid #f0c50c;
+}
+.ticket-price span {
+  font-size: 25px;
+  color: #f0c50c;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+/* Signup Css Start */
+
+.sec-signup {
+  background-image: url("../images/signup-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 69%);
+  min-height: 500px;
+  background-position: bottom center;
+}
+.txt-signup h1 {
+  color: #fff;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 5rem !important;
+  letter-spacing: 10px;
+  text-shadow: 0px 0px 10px rgb(240 197 12);
+}
+
+/* PhotoGallery Css */
+
+.sec-photogallery {
+  background-image: url("../images/pg1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 69%);
+  min-height: 500px;
+  background-position: bottom center;
+}
+
+.txt-photo h1 {
+  color: #fff;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 5rem !important;
+  letter-spacing: 10px;
+  text-shadow: 0px 0px 10px rgb(240 197 12);
+}
+
+.photos h2 {
+  text-align: center;
+  color: #f0c50c !important;
+  border-top: 2px solid #fff;
+  border-left: 8px solid #f0c50c;
+  border-right: 8px solid #f0c50c;
+  border-radius: 5px;
+  border-bottom: 2px solid #fff;
+  padding: 7px 0px;
+  font-weight: 800;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.pgimg img {
+  max-width: 100%;
+  min-height: 250px;
+}
+.pgimg {
+  border: 2px solid yellow;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.pgimg h3 {
+  color: #000;
+}
+
+.photos .react-multi-carousel-list {
+  position: static !important;
+}
+.photos button.react-multiple-carousel__arrow--left {
+  left: unset !important;
+  margin-left: 0px;
+}
+.photos button.react-multiple-carousel__arrow--right {
+  margin-right: -15px;
+}
+
+/* Media Query */
+@media screen and (max-width: 767px) and (min-width: 426px) {
+  .slider-col button.react-multiple-carousel__arrow--right {
+    margin-right: 32px;
+  }
+  .slider-col button.react-multiple-carousel__arrow--left {
+    margin-left: 17.7%;
+  }
+  .wow h1 {
+    font-size: 2rem;
+  }
+  .slid-two button.react-multiple-carousel__arrow--left,
+  .slid-two button.react-multiple-carousel__arrow--right {
+    display: none;
+  }
+  .slider-col button.react-multiple-carousel__arrow--left,
+  .slider-col button.react-multiple-carousel__arrow--right {
+    display: none;
+  }
+  .header-col {
+    display: contents;
+  }
+  #Menu .container {
+    display: block;
+  }
+  .logo-img img {
+    margin: 10px 0px;
+  }
+  .logo-img img {
+    max-width: 110px;
+  }
+  .photos button.react-multiple-carousel__arrow--right,
+  .photos button.react-multiple-carousel__arrow--left {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .main-title {
+    font-size: 1.6rem;
+  }
+  .slider-section .section-2 {
+    font-size: 1.8rem;
+  }
+  .slid-two button.react-multiple-carousel__arrow--left,
+  .slid-two button.react-multiple-carousel__arrow--right {
+    display: none;
+  }
+  .desc-div h3 {
+    font-size: 15px !important;
+    min-height: 82px;
+  }
+
+  .wow h1 {
+    font-size: 1.8rem;
+  }
+  .navbar a {
+    font-size: 16px;
+  }
+  /* .react-multi-carousel-track li {
+    padding: 0 5px;
+  } */
+  .slide-date {
+    font-size: 14px;
+  }
+  .team-name,
+  .team-score {
+    font-size: 12px;
+  }
+  .slider-col button.react-multiple-carousel__arrow--left,
+  .slider-col button.react-multiple-carousel__arrow--right {
+    display: none;
+  }
+
+  .header-col {
+    display: contents;
+  }
+  .player-head {
+    padding: 30px 0px;
+  }
+  #Menu .container {
+    display: block;
+  }
+  .logo-img img {
+    margin: 10px 0px;
+  }
+  .foot-right {
+    font-size: 16px;
+  }
+  .copyright span {
+    font-size: 15px;
+  }
+  .para-one {
+    font-size: 15px;
+  }
+  .logo-img img {
+    max-width: 150px;
+  }
+  .wow {
+    margin-right: unset;
+  }
+  .photos button.react-multiple-carousel__arrow--right,
+  .photos button.react-multiple-carousel__arrow--left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .slider-col {
+    padding: 5px 10px;
+  }
+  .header-col {
+    display: contents;
+  }
+  .slider-col .react-multiple-carousel__arrow:before {
+    font-size: 26px !important;
+  }
+  /* .react-multi-carousel-track li {
+    padding: 0px 5px;
+  } */
+  .team-name,
+  .team-score {
+    font-size: 9px;
+  }
+  .copyright span {
+    font-size: 10px;
+  }
+  .foot-right {
+    font-size: 12px;
+  }
+  .slider-col button.react-multiple-carousel__arrow--left,
+  .slider-col button.react-multiple-carousel__arrow--right {
+    display: none;
+  }
+  .slider-one {
+    padding: 4px 4px;
+  }
+  .slide-date {
+    font-size: 13px;
+  }
+  .main-title {
+    font-size: 1rem !important;
+  }
+  div#post-13 {
+    padding: 50px 0px;
+  }
+  h1 {
+    font-size: 21px !important;
+  }
+  .player-head {
+    padding: 30px 0px;
+  }
+  .slid-two .react-multi-carousel-list {
+    position: relative !important;
+    margin: 30px 0px;
+  }
+  .slid-two button.react-multiple-carousel__arrow--left,
+  .slid-two button.react-multiple-carousel__arrow--right {
+    display: none;
+  }
+  .foot-para row {
+    flex-direction: column-reverse;
+  }
+  .foot-head {
+    text-align: center;
+  }
+  .foot-social {
+    text-align: center;
+    padding: 10px 0px;
+  }
+  #Menu .container {
+    display: block;
+  }
+  .logo-img img {
+    margin: 10px 0px;
+  }
+  .para-one {
+    font-size: 14px;
+    text-align: start;
+  }
+  .foot-social i {
+    font-size: 16px;
+  }
+  .logo-img img {
+    max-width: 110px;
+  }
+  .slide {
+    padding: 5px 5px;
+  }
+  .lead-head span {
+    font-size: 2rem;
+  }
+  .rank-flex h4 {
+    font-size: 15px;
+  }
+  .lead-wins,
+  .leads-loss,
+  .leads-points {
+    font-size: 13px;
+  }
+  .sec-gameday,
+  .sec-photogallery,
+  .sec-signup,
+  .sec-coaches {
+    min-height: 200px;
+    /* background-position: unset; */
+  }
+  .txt-gameday h1,
+  .bg-content h1,
+  .txt-roster h1,
+  .txt-coaches h1,
+  .txt-photo h1,
+  .txt-signup h1,
+  .bg-content h3 {
+    font-size: 2rem !important;
+  }
+  .pgimg {
+    margin: 5px 0px;
+  }
+  .wow {
+    margin-right: unset;
+  }
+  .wow h2 {
+    text-align: start;
+  }
+  .game-bg,
+  .sec-roster {
+    min-height: 130px;
+  }
+  .gc-thead th {
+    font-size: 13px;
+  }
+  .gc-body td {
+    font-size: 13px;
+  }
+  .rost-body td {
+    font-size: 13px;
+  }
+  .cont-div ul li h4 {
+    font-size: 19px;
+  }
+  .photos button.react-multiple-carousel__arrow--right,
+  .photos button.react-multiple-carousel__arrow--left {
+    display: none;
+  }
+}
