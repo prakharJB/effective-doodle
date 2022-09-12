@@ -27,10 +27,10 @@ const Home = () => {
   };
   const [data, setData] = useState([]);
 
-  const Linkto = 'http://132.148.76.108:8000';
+  const Linkto = 'https://132.148.76.108:8000';
 
   useEffect(() => {
-    const url = 'http://132.148.76.108:8000/api/midslides';
+    const url = 'https://132.148.76.108:8000/api/midslides';
     fetch(url)
       .then((response) => response.json())
       .then((json) => setData(json))
@@ -39,7 +39,7 @@ const Home = () => {
 
   const [description, setDescription] = useState([]);
   useEffect(() => {
-    const url = 'http://132.148.76.108:8000/api/descriptions';
+    const url = 'https://132.148.76.108:8000/api/descriptions';
     fetch(url)
       .then((response) => response.json())
       .then((json) => setDescription(json))
