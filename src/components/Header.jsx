@@ -26,7 +26,7 @@ const Header = () => {
   };
 
   useEffect(() => {
-    const url = "https://highschool-football-api.herokuapp.com/api/topslides";
+    const url = "https://132.148.76.108:8000/api/topslides";
     fetch(url)
       .then((response) => response.json())
       .then((json) => setData(json))
